@@ -81,18 +81,17 @@ router.get('/', async (req, res) => {
 
                         // Send video thumbnail with caption
                         await KnightBot.sendMessage(userJid, {
-                            image: { url: 'https://i.ibb.co/sdPWS951/Whats-App-Image-2025-08-21-at-2-32-06-PM.jpg' },
-                            caption: `NETHUWA XMD BOT CONNECT SUCCSESFULLY`
+                            image: { url: 'https://files.catbox.moe/p4yxcn.png' },
+                            caption: `Denavi-MD BOT CONNECT SUCCSESFULLY`
                         });
                         console.log("🎬 Video guide sent successfully");
 
                         // Send warning message
                         await KnightBot.sendMessage(userJid, {
                             text: `⚠️Do not share this file with anybody⚠️\n 
-┌┤✑  Thanks for using Nethuwa XMD
+┌┤✑  Thanks for using Denavi-MD
 │└────────────┈ ⳹        
-│©2025 Nethuwa XMD
-| https://whatsapp.com/channel/0029Vb6gcq74NVij8LWJKy1D
+│©2025 Denavi-MD
 └─────────────────┈ ⳹\n\n`
                         });
                         console.log("⚠️ Warning message sent successfully");
